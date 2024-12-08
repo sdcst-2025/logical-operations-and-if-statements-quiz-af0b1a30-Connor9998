@@ -16,7 +16,7 @@ else
 """
 x = 3
 y = 4
-if x == 3 or y == 4:
+if x == 3 and y == 4:
     print("x is 3 and y is 4")
 elif x == 3:
     print('x is 3')
