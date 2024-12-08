@@ -8,11 +8,15 @@ xi = int(x)
 if (x - xi) == 0:
     print(f"{x} is an integer")
 """
-x = input("enter a decimal number")
+
+import math
+
+x = input("Enter a decimal number:")
 #convert to a number
-x=float(x)
-b=round(x,1)
-if x - round(x,1)==0:
-    print(f"{b} is an integer")
-elif x != int():
+x = float(x)
+xi = int(x)
+    
+if x - xi == 0:
+    print(f"{x} is an integer")
+else:
     print(f"{x} is not an integer")
