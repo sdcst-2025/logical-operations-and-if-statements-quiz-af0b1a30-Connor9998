@@ -13,5 +13,5 @@ print(x)
 
 x = input("enter a float number:")
 x=float(x)
-round(x,2)
+x=f"{x:.2f}
 print(x)
